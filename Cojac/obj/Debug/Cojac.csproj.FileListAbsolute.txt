@@ -1,0 +1,6 @@
+C:\_Git\Cojac\Cojac\bin\Cojac.dll
+C:\_Git\Cojac\Cojac\bin\Cojac.pdb
+C:\_Git\Cojac\Cojac\bin\EntityFramework.dll
+C:\_Git\Cojac\Cojac\obj\Debug\ResolveAssemblyReference.cache
+C:\_Git\Cojac\Cojac\obj\Debug\Cojac.dll
+C:\_Git\Cojac\Cojac\obj\Debug\Cojac.pdb
