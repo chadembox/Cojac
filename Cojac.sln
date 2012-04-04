@@ -1,7 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cojac", "Cojac\Cojac.csproj", "{F18F0A5D-F488-4B3B-AB98-532DE0F0BEFA}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cojac.Core", "Cojac.Core\Cojac.Core.csproj", "{52B5B8E8-193D-4832-B78E-2550F044412A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cojac.Web", "Cojac.Web\Cojac.Web.csproj", "{6182A67C-06E4-42EA-8864-3E650291CF39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F18F0A5D-F488-4B3B-AB98-532DE0F0BEFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F18F0A5D-F488-4B3B-AB98-532DE0F0BEFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F18F0A5D-F488-4B3B-AB98-532DE0F0BEFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F18F0A5D-F488-4B3B-AB98-532DE0F0BEFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52B5B8E8-193D-4832-B78E-2550F044412A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B5B8E8-193D-4832-B78E-2550F044412A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B5B8E8-193D-4832-B78E-2550F044412A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B5B8E8-193D-4832-B78E-2550F044412A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6182A67C-06E4-42EA-8864-3E650291CF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6182A67C-06E4-42EA-8864-3E650291CF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6182A67C-06E4-42EA-8864-3E650291CF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6182A67C-06E4-42EA-8864-3E650291CF39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
