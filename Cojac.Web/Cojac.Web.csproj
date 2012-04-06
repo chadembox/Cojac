@@ -101,9 +101,6 @@
     <Reference Include="System.Web.Optimization">
       <HintPath>..\packages\Microsoft.Web.Optimization.1.0.0-beta\lib\net40\System.Web.Optimization.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Providers">
-      <HintPath>..\packages\System.Web.Providers.Core.1.0\lib\net40\System.Web.Providers.dll</HintPath>
-    </Reference>
     <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\AspNetRazor.Core.2.0.20126.16343\lib\net40\System.Web.Razor.dll</HintPath>
@@ -131,6 +128,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Areas\NBA\Controllers\SeriesController.cs" />
+    <Compile Include="Areas\NBA\NBAAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -196,11 +195,19 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\NBA\Models\" />
+    <Folder Include="Areas\NBA\Views\Shared\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\NBA\Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\NBA\Views\Series.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
